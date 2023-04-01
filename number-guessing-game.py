@@ -1,5 +1,6 @@
 import random
 import math
+
 def guessingGame(gg1, gg2):
     return random.randint(gg1, gg2)
 
