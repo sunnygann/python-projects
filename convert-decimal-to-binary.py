@@ -1,5 +1,6 @@
 try:
     decimalNum = int(input("Please enter a decimal number to be converted into binary: "))
+    preservedNum = decimalNum
 
     decimalNum2 = decimalNum
     binaryLen = 0
@@ -18,7 +19,7 @@ try:
     binary = ''
     for i in binaryList:
         binary = binary + str(i)
-    print(binary)
+    print("The binary format for decimal number " + str(preservedNum) + " is " + str(binary) + ".")
 
 except ValueError:
     print("Please enter a valid integer value.")
